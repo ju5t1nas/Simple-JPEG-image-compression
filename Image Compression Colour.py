@@ -145,11 +145,10 @@ class image:
                 compressed[i][j][2] = self.c3[i][j]
         sm.imsave('compressed' + self.name, compressed)
 
+       
+#To try this thing out simply uncomment the following lines.
+
+        
 #picture = image("pic2.jpg")
-#print(picture.pic.shape)
-#print(picture.dim)
-#picture.meanMat(False)
-#print(picture.Mc.shape)
-#picture.compression(False, 1)
-#print(picture.colour1)
+
 #picture.compression(False, 1)
